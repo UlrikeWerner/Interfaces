@@ -5,6 +5,6 @@ public class MusicPlayer implements Playable{
 
     @Override
     public void play() {
-        System.out.println("MusicPlayer spielt " + song);
+        System.out.println("MusicPlayer spielt " + song + ".");
     }
 }
