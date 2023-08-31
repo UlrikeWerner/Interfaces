@@ -6,6 +6,10 @@ public class Main {
         player.playMedia(new MusicPlayer());
         player.playMedia(new VideoPlayer());
 
-
+        System.out.println("-----------------------------------------------");
+        MusicPlayer mPlayer = new MusicPlayer();
+        VideoPlayer vPlayer = new VideoPlayer();
+        vPlayer.play();
+        mPlayer.play();
     }
 }
